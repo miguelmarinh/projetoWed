@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: rgb(39, 38, 38);
+  color: rgb(255, 255, 255);
+}
+
+nav.menu-lateral  {
+  width: 60px;
+  height: 100%;
+  background-color: rgb(39, 38, 38);
+  padding: 40px 0 40px 1%;
+  box-shadow: 3px 0 0 red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: .4s;
+}
+
+nav.menu-lateral:hover {
+  width: 300px;
+}
+
+.btn-espandir > i {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+ul {
+  
+  list-style-type: none;
+}
+
+ul li.item-menu a {
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 4%;
+  display: flex;
+}
+
+ul li.item-menu:hover {
+  background-color: rgb(216, 38, 38);
+}
+
+ul li.item-menu {
+  transition: .4s;
+}
+
+ul li.item-menu a .txt-link {
+  margin-left: 20px;
+}
+
+ul li.item-menu a .icons > i{
+  font-size: 25px;
+
+}
+
+section.campo-conteiner {
+  
+  background-color: rgb(77, 90, 90);
+}
+
+section.campo-conteiner1 {
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.txt-conteiner {
+  display: flex;
+  flex-direction: column; /* Alinha as imagens na vertical */
+  align-items: flex-end;  /* Alinha à direita */
+  position: fixed; /* Fixa o container na tela */
+  right: 0;       /* Encosta na borda direita */
+  top: 0;         /* Começa do topo da tela */
+  margin: 10px; 
+  margin: 15px;
+}
+
+.img-personagem {
+  margin: 15px;
+  border: 5px solid red;
+  width: 200px; /* Defina o tamanho desejado */
+  height: 200px; /* Certifique-se de que largura e altura sejam iguais */
+  border-radius: 50%; /* Torna a imagem redonda */
+  object-fit: cover; /* Para garantir que a imagem se ajuste corretamente */
+}
+
+.txt-personagem {
+  text-align: left;
+  text-align: center;
+  height: 500px;
+  width: 900px;
+  padding: 50px;
+  margin-left: 550px;
+  border: white;
+}
+
+.img-logo {
+  cursor: pointer;
+  margin-left: 350px;
+  transition: .2s;
+}
+
+.img-logo-home {
+  margin-left: 700px;
+}
+
+.historia-anime {
+  width: 900px;
+  height: 400px;
+  margin-left: 400px;
+  padding: 60px;
+}
+
+.topico-anime { 
+  font-size: 40px;
+  text-align: left;
+  margin: 15px;
+}
+
+.txt-topico {
+  font-size: 22px;
+  text-align: justify;
+  margin: 10px;
+}
+
+.anime-curiosidade {
+  height: 300px ;
+  width: 1200px;
+  margin-left: 400px;
+}
+
+ul.conteiner-link {
+  float:right;
+  text-align: center;
+}
+
+.link-netflix {
+  background-color: red;
+  height: 60px;
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.link-prime {
+  background-color: rgb(23, 79, 233);
+  height: 60px;
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.title-personagem {
+  margin: 20px;
+  font-size: 25px;
+  text-align: left;
+}
+
+.tema-personagem {
+  margin: 20px;
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  text-align: left;
+}
+
+.sobre-personagem {
+  font-size: 25px;
+}
